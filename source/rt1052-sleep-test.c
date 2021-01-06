@@ -49,8 +49,8 @@
 int main(void) {
 
   	/* Init board hardware. */
-    BOARD_InitBootPins();
-    BOARD_InitBootClocks();
+//    BOARD_InitBootPins();
+//    BOARD_InitBootClocks();
 
 
   	SNVS->LPCR |= SNVS_LPCR_TOP_MASK;
